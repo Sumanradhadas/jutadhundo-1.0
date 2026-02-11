@@ -1,0 +1,44 @@
+[build]
+  command = "npm run build:netlify"
+  publish = "dist/public"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "20"
+  FORCE_BUILD = "true"
+
+[[redirects]]
+  from = "/api/villages"
+  to = "/.netlify/functions/villages"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/fetch-district"
+  to = "/.netlify/functions/fetch-district"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/fetch-ad"
+  to = "/.netlify/functions/fetch-ad"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/save-user"
+  to = "/.netlify/functions/save-user"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/get-user-ip"
+  to = "/.netlify/functions/get-user-ip"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  conditions = { NOT = [{Role = "Api"}] }
