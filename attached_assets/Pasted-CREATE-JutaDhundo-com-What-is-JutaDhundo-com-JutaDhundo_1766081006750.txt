@@ -1,0 +1,211 @@
+CREATE
+🌐 JutaDhundo.com
+
+🟡 What is JutaDhundo.com?
+
+JutaDhundo.com is a clean, fast, static search website that helps people find Circle information (JUTA) using Village Name or Thana Number — even when they don’t know the exact spelling.
+
+“Juta” here is used as a friendly nickname for Circle, making the platform local, memorable, and relatable.
+
+🎯 Purpose of the Website
+
+Many people:
+
+Don’t know their Circle name
+
+Have only partial village names
+
+Make spelling mistakes
+
+Know the Thana number but not the villages
+
+👉 JutaDhundo.com solves this problem instantly.
+
+🖥️ Overall Look & Feel
+
+Modern, minimal, beautiful
+
+Light background (white / off-white)
+
+Accent color: yellow + dark blue
+
+Clean typography (simple, readable)
+
+Mobile-first & responsive
+
+Very fast (static site, Netlify-hosted)
+
+🧷 Branding & Logo
+
+Website name at top: 🥿 JutaDhundo
+
+A simple shoe icon (Juta) beside the name
+
+Tagline under logo:
+
+“Find your Circle in seconds”
+
+The shoe icon subtly represents “Juta = Circle”, not footwear shopping.
+
+🔍 Main Feature: Smart Search Box
+
+At the center of the homepage:
+
+Search Input:
+
+“Enter Village Name or Thana Number”
+
+What users can type:
+
+Full village name
+
+Partial village name
+
+Wrong spelling
+
+Thana number
+
+✨ Smart Search Behavior (Very Important)
+1️⃣ Auto Suggestions (after 3 letters)
+
+As soon as user types 3 characters, suggestions appear below the search box
+
+Suggestions update live as user types
+
+Works for:
+
+Village names
+
+Thana numbers
+
+Example:
+
+User types: "Ajn"
+Suggestions:
+• Ajni Ghat
+• Ajni Tola
+• Ajnaipur
+
+2️⃣ Spelling Mistake Friendly (Meaning-based match)
+
+If someone types the wrong spelling, the site still helps.
+
+Example:
+
+User types: "Ajnee"
+Results shown:
+• Ajni Ghat (Closest match)
+• Ajni Tola
+
+
+This helps users who:
+
+Heard the village name verbally
+
+Don’t know English spelling
+
+Type Hindi-sounding English
+
+3️⃣ One Thana Number → Multiple Results
+
+Very important feature ✔️
+
+If one Thana number has multiple villages, the site shows ALL matching records, not just one.
+
+Example search:
+
+Thana No: 176
+
+Results displayed as a list:
+Thana No: 176
+Circle: BARAHIYA (LAKHISARAI)
+
+• Ajni Ghat
+• Ajni Tola
+• Barahiya East
+• Barahiya West
+
+
+Each village shown clearly under the same Thana/Circle group.
+
+📋 Result Display Design
+
+Results appear in clean cards, not raw text.
+
+Each card shows:
+
+🏡 Village Name
+
+🧾 Thana Number
+
+🥿 Circle Name (Juta)
+
+If multiple results exist:
+
+Cards are stacked neatly
+
+Same Thana/Circle grouped together
+
+Easy to scan and read
+
+🧭 Navigation (Simple)
+
+Top navigation:
+
+Home
+
+About Juta
+
+Data Source
+
+Contact
+
+No clutter. No ads. No distractions.
+
+📱 Mobile Experience
+
+Large search bar
+
+Big tap-friendly suggestions
+
+Smooth scrolling
+
+Works perfectly on low-end phones
+
+⚡ Performance & Deployment
+
+Fully static website
+
+Deployed on Netlify
+
+Extremely fast load time
+
+Works even on slow internet
+
+No login, no signup
+
+🔐 Trust & Transparency
+
+Footer includes:
+
+“Data is for informational use only”
+
+Source acknowledgement
+
+Disclaimer (not a government website)
+
+🌱 Future-Ready (but not shown now)
+
+The design allows future additions like:
+
+Hindi search support
+
+District-wise filter
+
+Download results as PDF
+
+API access
+
+🧠 In one line
+
+JutaDhundo.com is a beautiful, fast, spelling-tolerant village & thana search website that helps people find their Circle (Juta) instantly — even with incomplete or incorrect input.
